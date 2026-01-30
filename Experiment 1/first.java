@@ -1,3 +1,14 @@
+
+public class first {
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        Student s2 = new Student(7, "Raman");
+        s1.display();
+        s2.display();
+    }
+}
+
+
 class Student {
     int rollNumber;
     String name;
@@ -18,11 +29,3 @@ class Student {
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
-        Student s1 = new Student();
-        Student s2 = new Student(7, "Raman");
-        s1.display();
-        s2.display();
-    }
-}
